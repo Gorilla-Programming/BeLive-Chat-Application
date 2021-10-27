@@ -1,0 +1,62 @@
+body{
+    margin:5vh 5vw;
+    background-color:#e26511
+}
+
+
+.logo{
+    width:11vw;
+    height:15vh
+}
+
+.chatBox{
+    width:90vw;
+    height: 63vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color:#fff;
+    border-radius: 20px;
+    overflow-y:auto;
+}
+.message{
+    background-color: #002764;
+    color: #fff;
+    max-height: 5vh;
+    max-width: 15vw;
+    padding:1vh 1vw;
+    margin:1vh 1vw;
+    border-radius:20px
+}
+.left{
+    float:left;
+    clear: both;
+}
+.right{
+    float:right;
+    clear:both;
+}
+.center{
+    display: block;
+    margin:auto;
+    clear:both;
+    background-color: rgba(255, 219, 122, 0.4);
+    max-width: 45vw;
+    text-align: center;
+    color: #000;
+}
+#messageInp{
+    margin-top: 2.5vh;
+    width:89vw;
+    height:4.5vh;
+    border-radius:20px;
+    padding:0px 10px;
+    
+}
+#submit{
+    display: block;
+    margin:auto;
+    margin-top: 2vh;
+    width:5vw;
+    height:5vh;
+    background-color:rgb(18, 143, 35);
+    color: #fff;
+}
